@@ -1,0 +1,7 @@
+---
+# vars file for butane
+butane_platform: '{{ butane_arch }}-{{ butane_os }}'
+butane_url: '{{ butane_mirror }}/v{{ butane_ver }}/butane-{{ butane_platform }}{{ butane_dotexe | default("") }}'
+butane_checksum: '{{ butane_checksums[butane_ver][butane_platform] }}'
+butane_exe: '{{ butane_install_dir }}/butane-{{ butane_ver }}-{{ butane_platform }}{{ butane_dotexe | default("") }}'
+butane_link: '{{ butane_install_dir }}/butane'

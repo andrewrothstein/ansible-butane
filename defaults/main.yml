@@ -1,0 +1,21 @@
+---
+# defaults file for butane
+butane_ver: 0.13.1
+butane_mirror: https://github.com/coreos/butane/releases/download
+butane_arch: x86_64
+butane_os: unknown-linux-gnu
+butane_install_dir: /usr/local/bin
+butane_checksums:
+  '0.13.1':
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-aarch64-unknown-linux-gnu
+    aarch64-unknown-linux-gnu: sha256:54289fc3a78b61e8ae33193258af4ee2c91b69d039d2de5312464df82ea2834f
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-ppc64le-unknown-linux-gnu
+    ppc64le-unknown-linux-gnu: sha256:e3b96739a7c3bf2c77d1fadfce3235d3897c6d405342b0ed3814ad18fc85a852
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-s390x-unknown-linux-gnu
+    s390x-unknown-linux-gnu: sha256:5ab19f2a4f173509ef770e3837ea5b8ac2d3a40562c6f6e8bc203c03474d4c04
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-x86_64-apple-darwin
+    x86_64-apple-darwin: sha256:d01ad92b738b7a0fa7a4d1cfc86b19d3a3c35458a460bf70dc84519cdfae11dd
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-x86_64-pc-windows-gnu.exe
+    x86_64-pc-windows-gnu: sha256:9734f3df6035dfb1ac0e897cea08461910bd36c24aa6c84253582c47106a1450
+    # https://github.com/coreos/butane/releases/download/v0.13.1/butane-x86_64-unknown-linux-gnu
+    x86_64-unknown-linux-gnu: sha256:7720bda45dd600a2409a725f48b62fb3566f7d9914d895914331dc3b65b124b1
