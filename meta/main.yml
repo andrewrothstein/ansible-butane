@@ -15,11 +15,11 @@ galaxy_info:
         - all
     - name: Fedora
       versions:
-        - 34
+        - 35
+        - 36
   galaxy_tags:
     - development
   role_name: butane
 
 dependencies:
-  - role: andrewrothstein.alpine-glibc-shim
-    version: v2.0.15
+  - andrewrothstein.alpine-glibc-shim
