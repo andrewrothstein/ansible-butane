@@ -26,6 +26,7 @@ dl_ver ()
 {
     local ver=$1
     printf "  '%s':\n" $ver
+    dl $ver aarch64 apple-darwin
     dl $ver aarch64 unknown-linux-gnu
     dl $ver ppc64le unknown-linux-gnu
     dl $ver s390x unknown-linux-gnu
@@ -34,4 +35,4 @@ dl_ver ()
     dl $ver x86_64 unknown-linux-gnu
 }
 
-dl_ver ${1:-0.14.0}
+dl_ver ${1:-0.16.0}
