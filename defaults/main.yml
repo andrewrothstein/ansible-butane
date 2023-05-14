@@ -1,6 +1,6 @@
 ---
 # defaults file for butane
-butane_ver: 0.17.0
+butane_ver: 0.18.0
 butane_mirror: https://github.com/coreos/butane/releases/download
 butane_os_map:
   Linux: unknown-linux-gnu
@@ -64,3 +64,18 @@ butane_checksums:
     x86_64-pc-windows-gnu: sha256:ab0a92f8810711f4b07d5339775b50c96633b9ba96b879ece6989b362e45e58c
     # https://github.com/coreos/butane/releases/download/v0.17.0/butane-x86_64-unknown-linux-gnu
     x86_64-unknown-linux-gnu: sha256:ce0df25ade8a9b5f570636281897479af06894d9f2e10aa07ae211231503ce1d
+  '0.18.0':
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-aarch64-apple-darwin
+    aarch64-apple-darwin: sha256:b690fe14042ad425f01a8c6c9019645caf49995c45a393b6a2d9581fb34d6242
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-aarch64-unknown-linux-gnu
+    aarch64-unknown-linux-gnu: sha256:256eb88c972a0727e40c819872428fdae4aa49795fc72737667b096005fccb06
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-ppc64le-unknown-linux-gnu
+    ppc64le-unknown-linux-gnu: sha256:ee493c4a7c8b7044b1f3cd24f624181e6589ef1b5411f60168f40dfe4e9b8caf
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-s390x-unknown-linux-gnu
+    s390x-unknown-linux-gnu: sha256:f7d4ef369fd72465855c9afc25f79a00d919d25dc0a448c5af0f1700098604e9
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-x86_64-apple-darwin
+    x86_64-apple-darwin: sha256:b5243670a522e7b727a31d390b25cbc910bf38369b48477c08407e50b4848ab4
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-x86_64-pc-windows-gnu.exe
+    x86_64-pc-windows-gnu: sha256:6f15efa3df781ec1ecad895f778bca5d9689b60110288ac7566f224215a93d10
+    # https://github.com/coreos/butane/releases/download/v0.18.0/butane-x86_64-unknown-linux-gnu
+    x86_64-unknown-linux-gnu: sha256:d1ee3b194ad7f7fc7069243db85c7606a6cca60237860cd1108342331eecff8c
