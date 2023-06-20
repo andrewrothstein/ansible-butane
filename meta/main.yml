@@ -12,7 +12,7 @@ galaxy_info:
         - all
     - name: Debian
       versions:
-        - buster
+        - bookworm
         - bullseye
     - name: EL
       versions:
@@ -20,11 +20,10 @@ galaxy_info:
         - 9
     - name: Fedora
       versions:
-        - 36
         - 37
+        - 38
     - name: Ubuntu
       versions:
-        - bionic
         - focal
         - jammy
   galaxy_tags:
