@@ -35,4 +35,4 @@ dl_ver ()
     dl $ver x86_64 unknown-linux-gnu
 }
 
-dl_ver ${1:-0.22.0}
+dl_ver ${1:-0.23.0}
